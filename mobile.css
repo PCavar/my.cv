@@ -1,0 +1,260 @@
+@media (max-width: 768px) {
+    body {
+        background-image: url("neutralBackground.jpg");
+        background-size: cover;
+        margin: 0;
+        position: relative;
+        padding-top: 3.5em;
+    }
+
+    header {
+        width: 100%;
+        height: 3.5em;
+        background-color: black;
+        position: fixed;
+        color: white;
+        top: 0;
+        overflow: hidden;
+        transition: height 500ms 0ms;
+    }
+
+    header.fullscreen {
+        height: 100%;
+        }
+
+    header h3 {
+        font-size: 0.8em;
+        margin: 1.9em 0.5em;
+        display: inline-block;
+        }
+        
+    header .menu-button {
+        padding: 1.2em;
+        display: inline-block;
+        }
+        
+    header ul li {
+        display: block;
+        list-style-type: none;
+        text-align: center;
+        font-size: 1.5em;
+        }
+        
+    header ul {
+        padding: 0;
+        }
+        
+        
+    header ul li >* {
+        margin: 0.5em;
+
+        }
+
+        .monkeys {
+            text-align: center;
+            padding: 10px 20px;
+            background-color: white;
+            margin-bottom: 10px;
+            margin-top: 20px;
+            margin-left: 75px;
+            margin-right: 75px;
+            background-color: transparent
+        }
+
+        .monkeys img {
+            margin-top: 30px;
+            width: 100%;
+            box-shadow: 0 40px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.30);
+            text-align: center;
+        }
+
+        .monkeys p {
+            color: white;
+            font-size: 1.2em;
+        }
+
+    .me {
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1.4em;
+        text-align: center;
+        padding-top: 20px;
+        height: auto;
+        margin: 20px;
+    }
+    
+    .paragraph2 {
+        width: auto;
+        font-size: 1.4em;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 20px;
+    }
+
+    
+    footer {
+        background-color: grey;
+        position: absolute;
+        text-align: center;
+        border: none;
+        margin-top: 60px;
+    }
+    
+    footer li a {
+        list-style-type: none;
+        color: white;
+        font-size: auto;
+        text-decoration: none;
+    }
+    
+    .links {
+        padding-top: 25px;
+        text-align: center;
+        height: auto;
+    }
+    
+    footer .links li a {
+        background-color: transparent;
+        width: auto;
+        height: auto;
+        padding-left: 0;
+    }
+    
+    .fa-map-marked-alt {
+        list-style-type: none;
+        background-color: transparent;
+    }
+    
+    .fa-phone {
+        list-style-type: none;
+    }
+    
+    .fa-envelope {
+        background-color: transparent;
+    }
+    
+    .icons {
+        height: auto;
+        display: inline-block;
+        text-align: center;
+        width: 100%;
+        padding-bottom: 10px;
+    }
+    
+    .icons a:hover {
+        color: white;
+        background-color: transparent;
+    }
+    
+    .fa-twitter {
+        font-size: 75px;
+        color: rgb(29, 202, 255);
+    }
+    
+    .fa-github-square {
+        font-size: 75px;
+        color: black;
+    }
+    .fa-linkedin {
+        font-size: 75px;
+        color: rgb(0, 119, 181);
+    }
+    .myName {
+        display: none;
+    }
+    
+    #page2Container1 {
+        text-align: center;
+        width: auto;
+        margin-top: 35px;
+        margin-right: 25px;
+        height: auto;
+    }
+    
+    .whoamI {
+        color: whitesmoke;
+    }
+    
+    .textaboutMe {
+        color: white;
+        font-size: 1.2em;
+        text-align: center;
+    }
+    
+    .qoute1 {
+        color: white;
+    }
+    
+    .page2Container2 {
+        text-align: center;
+        margin-top: 30px;
+        margin-bottom: 50px;
+        width: auto;
+        margin-right: 25px;
+    }
+    
+    .whyDevelopment {
+        color: white;
+        font-size: 1.2em;
+        text-align: center;
+    }
+    
+    .why {
+        color: white;
+    }
+    .icons2 {
+        display: inline-block;
+        text-align: center;
+        width: 100%;
+    }
+    
+    .fa-facebook {
+        font-size: 75px;
+        color: rgb(59, 89, 152);
+        padding: 20px;
+    }
+    
+    .fa-instagram {
+        font-size: 75px;
+        color: rgb(251, 57, 88);
+        text-decoration: none;
+        padding: 20px;
+    }
+    
+    .fa-snapchat-square {
+        font-size: 75px;
+        color: yellow;
+        padding: 20px;
+    }
+    
+    .icons2 a:hover {
+        color: white;
+        background-color: transparent;
+    }
+    
+    .toStartSite1 {
+        border-radius: none;
+        border: none;
+        background-color: grey;
+    }
+    
+    .toStartSite2 {
+        border-radius: none;
+        border: none;
+        background-color: grey;
+    }
+    
+    .fa-angle-double-up {
+        font-size: 20px;
+        margin-top: 10px;
+        border: 3px solid white;
+        border-radius: 20px;
+        padding: 10px;
+        color: white;
+        float: none;
+    }
+    
+    .fa-angle-double-up:hover {
+        color: purple;
+    }
+ } 

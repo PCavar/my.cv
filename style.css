@@ -1,0 +1,288 @@
+body{
+    background-image: url("neutralBackground.jpg");
+    margin: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 175px;
+    position: relative;
+}
+
+header {
+    width: 100%;
+   
+}
+
+header h3 {
+    color: white;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 1.8em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header ul li{
+    display: flex;
+    display: inline-block;
+}
+
+header a {
+    text-align: center;
+    background-color: black;
+}
+
+header ul {
+    text-align: center;
+}
+
+.menu-button {
+    display: none;
+}
+
+.myName {
+    float: left;
+    font-size: 30px;
+    font-style: italic;
+    color: white;
+    padding-left: 50px;
+}
+
+.navbar {
+    list-style-type: none;
+}
+
+li a{
+    margin-right: 20px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px;
+    color: white;
+    opacity: 40%;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 25%;
+}
+
+li a:hover {
+    background-color: purple;
+}
+
+.monkeys {
+    text-align: center;
+    padding: 10px 20px;
+    background-color: white;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
+    background-color: transparent; 
+}
+
+.monkeys img {
+    margin-top: 30px;
+    width: 50%;
+    box-shadow: 0 25px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 20%;
+    text-align: center;
+} 
+
+.monkeys p {
+    color: white;
+    font-size: 1.2em;
+}
+
+
+.icons {
+    height: 150px;
+    text-align: center;
+    width: auto;
+    padding-bottom: 18px;
+}
+
+.icons2 {
+    text-align: center;
+}
+
+.fa-twitter {
+    padding: 20px;
+    font-size: 100px;
+    color: rgb(29, 161, 242);
+    text-decoration: none;  
+}
+
+.fa-twitter:hover {
+    color: white;
+    background-color: transparent;
+}
+
+.fa-github-square {
+    padding: 20px;
+    font-size: 100px;
+    color: black;
+}
+
+.fa-github-square:hover {
+    color: white;
+    background-color: transparent;
+}
+
+.fa-linkedin {
+    padding: 20px;
+    font-size: 100px;
+    color: rgb(0, 119, 181);
+}
+
+.fa-linkedin:hover {
+    color: white;
+    background-color: transparent;
+}
+
+.me {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.4em;
+    text-align: center;
+    padding-top: 10px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.paragraph2 {
+    font-size: 1.4em;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    border-top: 1px solid white;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.paragraph2 p {
+    margin-bottom: 50px;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: transparent;
+    background-color: rgb(128, 128, 128, 0.8);
+}
+
+.links {
+    bottom: 0;  
+    width: 100%;
+    text-align: center;
+}
+
+.links li {
+    display: inline-block;
+    text-align: center;
+    list-style-type: none;
+    background-color: transparent;
+}
+
+footer .links li a {
+    background-color: transparent;
+    margin: 0;
+    bottom: 0;
+    margin-bottom: 10px;
+}
+
+#page2Container1 {
+    margin-top: 100px;
+    padding-bottom: 100px;
+    margin-left: 25px;
+    margin-right: 25px;
+    text-align: center;
+    border-top: 1px solid white;
+}
+
+.whoamI {
+    color: white;
+}
+
+.textaboutMe {
+    color: white;
+    font-size: 1.5em;
+    font-style: italic;
+}
+
+.qoute1 {
+    color: white;
+}
+
+.page2Container2 {
+    margin-top: 50px;
+    margin-bottom: 155px;
+    margin-left: 25px;
+    margin-right: 25px;
+    text-align: center;
+    border-top: 1px solid white;
+}
+
+.whyDevelopment {
+    color: white;
+}
+
+.why {
+    color:white;
+    font-size: 1.5em;
+}
+
+.fa-facebook {
+    font-size: 100px;
+    padding: 20px;
+    color: #3a81c4;
+}
+
+.fa-facebook:hover {
+    color: white;
+}
+
+.fa-instagram {
+    font-size: 100px;
+    padding: 20px;
+    text-decoration: none;
+}
+
+.fa-instagram:hover {
+    color: brown;
+}
+
+.fa-snapchat-square {
+    font-size: 100px;
+    padding: 20px;
+    color: yellow;
+}
+
+.fa-snapchat-square:hover {
+    color: white;
+}
+
+.toStartSite1 {
+    text-align: center;
+    width: auto;
+}
+
+.toStartSite2 {
+    text-align: center;
+    width: auto;
+}
+
+.fa-angle-double-up {
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 3px solid white;
+    border-radius: 20px;
+    padding: 10px;
+    color: white;
+    float: none;
+    cursor: pointer;
+}
+
+.fa-angle-double-up:hover {
+    color: purple;
+    background-color: transparent;
+}
